@@ -34,3 +34,10 @@
 
 ![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/4.PNG?raw=true)
 
+## Задание 3
+
+[Файл vms_platform.tf](https://github.com/RiteHist/ter-homework-2/blob/main/src/vms_platform.tf)
+
+Созданная VM в yandex cloud:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/5.PNG?raw=true)

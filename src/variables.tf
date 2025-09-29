@@ -28,6 +28,16 @@ variable "vpc_name" {
   description = "VPC network & subnet name"
 }
 
+variable "subnet_db" {
+  type = string
+  default = "db"
+}
+
+variable "cidr_db" {
+  type = list(string)
+  default = [ "10.0.2.0/24" ]
+}
+
 ###image vars
 
 variable "image_family" {
@@ -36,7 +46,7 @@ variable "image_family" {
 }
 
 ###vm vars
-
+/*
 variable "vm_web_name" {
   type = string
   default = "netology-develop-platform-web"
@@ -71,7 +81,7 @@ variable "vm_web_nat" {
   type = bool
   default = true
 }
-
+*/
 ###ssh vars
 
 variable "vms_ssh_root_key" {

@@ -25,3 +25,12 @@
 ### Пункт 6
 
 `preemptible = true` делает VM прерываемой, что значительно сокращает её стоимость. `core_fraction = 5` задает VM гарантированную долю vCPU в 5%, что также уменьшает стоимость VM, но стоит учитывать, что доля vCPU в 5% доступна не для всех платформ.
+
+## Задание 2
+
+[Файл variables.tf](https://github.com/RiteHist/ter-homework-2/blob/main/src/variables.tf)
+
+Результат выполнения `terraform plan` после замены хардкодовых значений на переменные:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/4.PNG?raw=true)
+

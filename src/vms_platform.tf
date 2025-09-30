@@ -13,6 +13,21 @@ variable "project" {
     default = "netology"
 }
 
+variable "vms_resources" {
+    type = map(object({
+        cores = number
+        memory = number
+        core_fraction = number
+        preemptible = bool
+        nat = bool
+        platform_id = string
+    }))
+}
+
+variable "vm_metadata" {
+    type = map(string)
+}
+
 /*
 variable "vm_web_name" {
   type = string
@@ -23,7 +38,7 @@ variable "vm_db_name" {
     type = string
     default = "netology-develop-platform-db"
 }
-*/
+
 
 variable "vm_web_platform_id" {
   type = string
@@ -34,6 +49,7 @@ variable "vm_db_plaftorm_id" {
     type = string
     default = "standard-v4a"
 }
+
 
 variable "vm_web_cores" {
   type = number
@@ -65,6 +81,7 @@ variable "vm_db_core_fraction" {
     default = 20
 }
 
+
 variable "vm_web_preemptible" {
   type = bool
   default = true
@@ -94,3 +111,4 @@ variable "vm_db_metadata_serial_port" {
     type = string
     default = "1"
 }
+*/

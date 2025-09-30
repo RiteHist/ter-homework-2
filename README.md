@@ -53,3 +53,9 @@
 ## Задание 5
 
 [Файл locals.tf](https://github.com/RiteHist/ter-homework-2/blob/main/src/locals.tf)
+
+## Задание 6
+
+Результат `terraform output` после изменения переменных:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/7.PNG?raw=true)

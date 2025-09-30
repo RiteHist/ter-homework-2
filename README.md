@@ -41,3 +41,11 @@
 Созданная VM в yandex cloud:
 
 ![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/5.PNG?raw=true)
+
+## Задание 4
+
+[Файл outputs.tf](https://github.com/RiteHist/ter-homework-2/blob/main/src/outputs.tf)
+
+Результат выполнения `terraform output`:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/6.PNG?raw=true)

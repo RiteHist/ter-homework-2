@@ -1,3 +1,19 @@
+variable "environment" {
+    type = list(string)
+    default = ["develop", "stage", "production"]
+}
+
+variable "role" {
+    type = list(string)
+    default = ["web", "db"]
+}
+
+variable "project" {
+    type = string
+    default = "netology"
+}
+
+/*
 variable "vm_web_name" {
   type = string
   default = "netology-develop-platform-web"
@@ -7,6 +23,7 @@ variable "vm_db_name" {
     type = string
     default = "netology-develop-platform-db"
 }
+*/
 
 variable "vm_web_platform_id" {
   type = string
@@ -66,11 +83,6 @@ variable "vm_web_nat" {
 variable "vm_db_nat" {
     type = bool
     default = true
-}
-
-variable "vm_db_zone" {
-    type = string
-    default = "ru-central1-b"
 }
 
 variable "vm_web_metadata_serial_port" {

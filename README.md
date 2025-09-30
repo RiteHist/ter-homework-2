@@ -49,3 +49,7 @@
 Результат выполнения `terraform output`:
 
 ![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/6.PNG?raw=true)
+
+## Задание 5
+
+[Файл locals.tf](https://github.com/RiteHist/ter-homework-2/blob/main/src/locals.tf)

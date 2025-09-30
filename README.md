@@ -59,3 +59,37 @@
 Результат `terraform output` после изменения переменных:
 
 ![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/7.PNG?raw=true)
+
+## Задание 7
+
+### Пункт 1
+
+`local.test_list[1]`
+
+Результат вывода:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/8.PNG?raw=true)
+
+### Пункт 2
+
+`length(local.test_list)`
+
+Результат вывода:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/9.PNG?raw=true)
+
+### Пункт 3
+
+`local.test_map["admin"]`
+
+Результат вывода:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/10.PNG?raw=true)
+
+### Пункт 4
+
+`"${local.test_map["admin"]} is ${keys(local.test_map)[0]} for ${local.test_list[2]} server based on OS ${local.servers["production"]["image"]} with ${local.servers["production"]["cpu"]} vcpu ${local.servers["production"]["ram"]} ram and ${length(local.servers["production"]["disks"])} virtual disks"`
+
+Результат вывода:
+
+![alt text](https://github.com/RiteHist/ter-homework-2/blob/main/media/11.PNG?raw=true)
